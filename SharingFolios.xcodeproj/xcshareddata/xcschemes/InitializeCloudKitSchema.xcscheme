@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "407D7CE727024EBD00D2BA90"
-               BuildableName = "CoreDataCloudKitShare.app"
-               BlueprintName = "CoreDataCloudKitShare"
-               ReferencedContainer = "container:CoreDataCloudKitShare.xcodeproj">
+               BlueprintIdentifier = "407A0CD92707D0CD00F481C5"
+               BuildableName = "InitializeCloudKitSchema.app"
+               BlueprintName = "InitializeCloudKitSchema"
+               ReferencedContainer = "container:SharingFolios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,21 +44,13 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "407D7CE727024EBD00D2BA90"
-            BuildableName = "CoreDataCloudKitShare.app"
-            BlueprintName = "CoreDataCloudKitShare"
-            ReferencedContainer = "container:CoreDataCloudKitShare.xcodeproj">
+            BlueprintIdentifier = "407A0CD92707D0CD00F481C5"
+            BuildableName = "InitializeCloudKitSchema.app"
+            BlueprintName = "InitializeCloudKitSchema"
+            ReferencedContainer = "container:SharingFolios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
-         <CommandLineArgument
-            argument = "-com.apple.CoreData.CloudKitDebug 0"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-com.apple.CoreData.Logging.stderr 0"
-            isEnabled = "YES">
-         </CommandLineArgument>
          <CommandLineArgument
             argument = "-com.apple.CoreData.ConcurrencyDebug 1"
             isEnabled = "YES">
@@ -75,10 +67,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "407D7CE727024EBD00D2BA90"
-            BuildableName = "CoreDataCloudKitShare.app"
-            BlueprintName = "CoreDataCloudKitShare"
-            ReferencedContainer = "container:CoreDataCloudKitShare.xcodeproj">
+            BlueprintIdentifier = "407A0CD92707D0CD00F481C5"
+            BuildableName = "InitializeCloudKitSchema.app"
+            BlueprintName = "InitializeCloudKitSchema"
+            ReferencedContainer = "container:SharingFolios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

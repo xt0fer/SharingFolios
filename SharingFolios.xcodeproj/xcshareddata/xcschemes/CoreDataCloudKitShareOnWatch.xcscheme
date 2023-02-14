@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "407D7D0C2702556600D2BA90"
-               BuildableName = "CoreDataCloudKitShareOnWatch.app"
-               BlueprintName = "CoreDataCloudKitShareOnWatch"
-               ReferencedContainer = "container:CoreDataCloudKitShare.xcodeproj">
+               BuildableName = "SharingFoliosOnWatch.app"
+               BlueprintName = "SharingFoliosOnWatch"
+               ReferencedContainer = "container:SharingFolios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "407D7CE727024EBD00D2BA90"
-               BuildableName = "CoreDataCloudKitShare.app"
-               BlueprintName = "CoreDataCloudKitShare"
-               ReferencedContainer = "container:CoreDataCloudKitShare.xcodeproj">
+               BuildableName = "SharingFolios.app"
+               BlueprintName = "SharingFolios"
+               ReferencedContainer = "container:SharingFolios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "407A0CD92707D0CD00F481C5"
                BuildableName = "InitializeCloudKitSchema.app"
                BlueprintName = "InitializeCloudKitSchema"
-               ReferencedContainer = "container:CoreDataCloudKitShare.xcodeproj">
+               ReferencedContainer = "container:SharingFolios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -73,9 +73,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "407D7D0C2702556600D2BA90"
-            BuildableName = "CoreDataCloudKitShareOnWatch.app"
-            BlueprintName = "CoreDataCloudKitShareOnWatch"
-            ReferencedContainer = "container:CoreDataCloudKitShare.xcodeproj">
+            BuildableName = "SharingFoliosOnWatch.app"
+            BlueprintName = "SharingFoliosOnWatch"
+            ReferencedContainer = "container:SharingFolios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -104,9 +104,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "407D7D0C2702556600D2BA90"
-            BuildableName = "CoreDataCloudKitShareOnWatch.app"
-            BlueprintName = "CoreDataCloudKitShareOnWatch"
-            ReferencedContainer = "container:CoreDataCloudKitShare.xcodeproj">
+            BuildableName = "SharingFoliosOnWatch.app"
+            BlueprintName = "SharingFoliosOnWatch"
+            ReferencedContainer = "container:SharingFolios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
