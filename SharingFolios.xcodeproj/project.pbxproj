@@ -29,7 +29,7 @@
 		407A0CDE2707D0CD00F481C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D7D6A2704334400D2BA90 /* SceneDelegate.swift */; };
 		407A0CE02707D0CD00F481C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D7D6C2704335A00D2BA90 /* AppDelegate.swift */; };
 		407A0CE12707D0CD00F481C5 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D7D0027024F5D00D2BA90 /* PersistenceController.swift */; };
-		407A0CEA2707D0CD00F481C5 /* CoreDataCloudKitShare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 407D7CF627024EBE00D2BA90 /* CoreDataCloudKitShare.xcdatamodeld */; };
+		407A0CEA2707D0CD00F481C5 /* ShareFolios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 407D7CF627024EBE00D2BA90 /* ShareFolios.xcdatamodeld */; };
 		407A0CED2707D0CD00F481C5 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407D7D092702502400D2BA90 /* CloudKit.framework */; };
 		407A0CEF2707D0CD00F481C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407D7CF227024EBE00D2BA90 /* Preview Assets.xcassets */; };
 		407A0CF02707D0CD00F481C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407D7CEF27024EBE00D2BA90 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 		407D7CEE27024EBD00D2BA90 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D7CED27024EBD00D2BA90 /* PhotoGridView.swift */; };
 		407D7CF027024EBE00D2BA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407D7CEF27024EBE00D2BA90 /* Assets.xcassets */; };
 		407D7CF327024EBE00D2BA90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407D7CF227024EBE00D2BA90 /* Preview Assets.xcassets */; };
-		407D7CF827024EBE00D2BA90 /* CoreDataCloudKitShare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 407D7CF627024EBE00D2BA90 /* CoreDataCloudKitShare.xcdatamodeld */; };
+		407D7CF827024EBE00D2BA90 /* ShareFolios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 407D7CF627024EBE00D2BA90 /* ShareFolios.xcdatamodeld */; };
 		407D7D0427024F5D00D2BA90 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D7D0027024F5D00D2BA90 /* PersistenceController.swift */; };
 		407D7D0A2702502400D2BA90 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407D7D092702502400D2BA90 /* CloudKit.framework */; };
 		407D7D102702556700D2BA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407D7D0F2702556700D2BA90 /* Assets.xcassets */; };
@@ -58,7 +58,7 @@
 		40AE53F12719F98C00B978CA /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AE53F02719F98C00B978CA /* CoreDataHelper.swift */; };
 		40B6201F273AFD3400B27D3D /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AE53F02719F98C00B978CA /* CoreDataHelper.swift */; };
 		40B62020273AFD3700B27D3D /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D7D0027024F5D00D2BA90 /* PersistenceController.swift */; };
-		40B62021273AFD6700B27D3D /* CoreDataCloudKitShare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 407D7CF627024EBE00D2BA90 /* CoreDataCloudKitShare.xcdatamodeld */; };
+		40B62021273AFD6700B27D3D /* ShareFolios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 407D7CF627024EBE00D2BA90 /* ShareFolios.xcdatamodeld */; };
 		40B62022273AFD9300B27D3D /* PersistenceController+Deduplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D68E932719101A00FB9B78 /* PersistenceController+Deduplicate.swift */; };
 		40B62023273AFD9700B27D3D /* PersistenceController+Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40527E18270BC8FE00DB2901 /* PersistenceController+Rating.swift */; };
 		40B62024273AFD9900B27D3D /* PersistenceController+Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D7D602703880E00D2BA90 /* PersistenceController+Tag.swift */; };
@@ -287,7 +287,7 @@
 				40BF672C273B17A200ED9D2D /* PersistenceController+History.swift */,
 				40D68E932719101A00FB9B78 /* PersistenceController+Deduplicate.swift */,
 				4074428A270FB2B5009CABC7 /* PersistenceController+Share.swift */,
-				407D7CF627024EBE00D2BA90 /* CoreDataCloudKitShare.xcdatamodeld */,
+				407D7CF627024EBE00D2BA90 /* ShareFolios.xcdatamodeld */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -502,7 +502,7 @@
 				407A0CDE2707D0CD00F481C5 /* SceneDelegate.swift in Sources */,
 				407A0CE02707D0CD00F481C5 /* AppDelegate.swift in Sources */,
 				407A0CE12707D0CD00F481C5 /* PersistenceController.swift in Sources */,
-				407A0CEA2707D0CD00F481C5 /* CoreDataCloudKitShare.xcdatamodeld in Sources */,
+				407A0CEA2707D0CD00F481C5 /* ShareFolios.xcdatamodeld in Sources */,
 				40BF6728273B0B7400ED9D2D /* CoreDataCloudKitShareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,7 +531,7 @@
 				407D7CEC27024EBD00D2BA90 /* CoreDataCloudKitShareApp.swift in Sources */,
 				40527E17270BBE3400DB2901 /* RatingView.swift in Sources */,
 				407D7D5F2703878000D2BA90 /* PersistenceController+Photo.swift in Sources */,
-				407D7CF827024EBE00D2BA90 /* CoreDataCloudKitShare.xcdatamodeld in Sources */,
+				407D7CF827024EBE00D2BA90 /* ShareFolios.xcdatamodeld in Sources */,
 				407D7D632703A27000D2BA90 /* PhotoGridItemView.swift in Sources */,
 				40C6211E2755AFB500015301 /* SharePickerView.swift in Sources */,
 				4026B868270A19390060F0F7 /* TaggingView.swift in Sources */,
@@ -549,7 +549,7 @@
 				403177DA27430A800048F2DC /* PhotoGridView.swift in Sources */,
 				403177DD274310B50048F2DC /* ManagingSharesView.swift in Sources */,
 				40B62024273AFD9900B27D3D /* PersistenceController+Tag.swift in Sources */,
-				40B62021273AFD6700B27D3D /* CoreDataCloudKitShare.xcdatamodeld in Sources */,
+				40B62021273AFD6700B27D3D /* ShareFolios.xcdatamodeld in Sources */,
 				403177DC274310690048F2DC /* AddToExistingShareView.swift in Sources */,
 				40B62027273AFDC600B27D3D /* PersistenceController+Photo.swift in Sources */,
 				403177DE27432CE40048F2DC /* PhotoContextMenu.swift in Sources */,
@@ -1013,13 +1013,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		407D7CF627024EBE00D2BA90 /* CoreDataCloudKitShare.xcdatamodeld */ = {
+		407D7CF627024EBE00D2BA90 /* ShareFolios.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				407D7CF727024EBE00D2BA90 /* CoreDataCloudKitShare.xcdatamodel */,
 			);
 			currentVersion = 407D7CF727024EBE00D2BA90 /* CoreDataCloudKitShare.xcdatamodel */;
-			path = CoreDataCloudKitShare.xcdatamodeld;
+			path = ShareFolios.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

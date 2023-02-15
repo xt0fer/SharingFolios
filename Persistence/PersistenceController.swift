@@ -10,7 +10,7 @@ import CoreData
 import CloudKit
 import SwiftUI
 
-let gCloudKitContainerIdentifier = "iCloud.co.tioga.TiogaFolios"
+let gCloudKitContainerIdentifier = "iCloud.co.tioga.ShareFolios"
 
 /**
  This app doesn't necessarily post notifications from the main queue.
@@ -37,7 +37,8 @@ class PersistenceController: NSObject, ObservableObject {
          A Core Data store has companion files, so it's a good practice to put a store under a folder.
          */
         let baseURL = NSPersistentContainer.defaultDirectoryURL()
-        let storeFolderURL = baseURL.appendingPathComponent("CoreDataStores")
+        print("base is \(baseURL)")
+        let storeFolderURL = baseURL.appendingPathComponent("ShareFolios")
         let privateStoreFolderURL = storeFolderURL.appendingPathComponent("Private")
         let sharedStoreFolderURL = storeFolderURL.appendingPathComponent("Shared")
 
@@ -50,7 +51,7 @@ class PersistenceController: NSObject, ObservableObject {
             }
         }
 
-        let container = NSPersistentCloudKitContainer(name: "CoreDataCloudKitShare")
+        let container = NSPersistentCloudKitContainer(name: "ShareFolios")
         
         /**
          Grab the default (first) store and associate it with the CloudKit private database.
